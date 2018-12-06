@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace newMultiuserProjectTracker.Pages
 {
-    public class AboutModel : PageModel
+    public class CreateGroupModel : PageModel
     {
         public string Message { get; set; }
 

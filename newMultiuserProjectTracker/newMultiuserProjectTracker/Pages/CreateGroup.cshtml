@@ -1,0 +1,26 @@
+﻿@page
+@model CreateGroupModel
+@*@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+<p>Use this area to provide additional information.</p>*@
+
+<h2>Create a group</h2>
+<br />
+
+@*<input type="submit" value="Create a group" class="btn btn-primary" onclick="showCreateForm()" />*@
+
+<form asp-action="Index">
+    <div>
+        Group Name:
+        <input type="text" id="groupName" />
+        <br />
+        Number of Projects:
+        <input type="number" id="numProjects" />
+        <br />
+        <input type="submit" value="Submit" class="btn btn-primary" asp-page="Index" />
+    </div>
+</form>

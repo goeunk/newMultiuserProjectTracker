@@ -11500,23 +11500,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Goeun-Laptop\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\kypow\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CS 3750\\P4\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker.csproj",
+      "projectUniqueName": "C:\\Users\\kypow\\Source\\Repos\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker.csproj",
       "projectName": "newMultiuserProjectTracker",
-      "projectPath": "D:\\CS 3750\\P4\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker.csproj",
-      "packagesPath": "C:\\Users\\Goeun-Laptop\\.nuget\\packages\\",
-      "outputPath": "D:\\CS 3750\\P4\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\obj\\",
+      "projectPath": "C:\\Users\\kypow\\Source\\Repos\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker.csproj",
+      "packagesPath": "C:\\Users\\kypow\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kypow\\Source\\Repos\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\newMultiuserProjectTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Goeun-Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kypow\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

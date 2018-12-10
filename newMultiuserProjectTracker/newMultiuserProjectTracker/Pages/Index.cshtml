@@ -6,12 +6,112 @@
 
 <h2>Multiuser Project Tracker</h2>
 <br />
-<div>
-    <input type="submit" value="Create a group" class="btn btn-primary" />
+
+
+@* ***                  ***
+****  CREATE NEW GROUP    ****
+  ***                   ****@
+
+<div id="createGroupSubmitDiv">
+    <input type="submit" value="Create a new group" class="btn btn-primary" onclick="ShowNewGroupElements()" />
 </div>
+
+@* User Input *@
+<div id="newGroupNameDiv" style="display: none">
+    <label>Enter New Group Name:</label>
+    <br />
+    <input type="text" id="newGroupName" />
+    <br />
+    <br />
+    <input type="button" id="submitNewGroup" value="Create Group" onclick="ShowNewGroupBoard()"/>
+</div>
+
+@* New Group Created *@
+<div id="newGroupCreatedDiv" style="display: none">
+    <label id="lblGroupName"></label>
+    <br/>
+    <input type="button" id="newItem" value="New Work Item" onclick="newWorkItem()"/>
+</div>
+
+@*
+    TODO:
+
+    TODO(Later): Back Button For New Group. Or we could just use home button
+*@
+
+@*OR for prettiness*@
+<div id="orBreak">
+    <br />
+    <hr />
+    OR
+    <hr />
+    <br />
+</div>
+
+
+
+
+<div id="chooseGroupDiv">
+    <label id="lblchoosGrp">Choose a group:</label>
+    <select id="selectChooseGroup">
+        <option value="(Select)"></option>
+        <option value="group1">Group1</option>
+        @*<option value="group1">Group1</option>
+            <option value="group2">Group2</option>
+
+                TODO: Dynamically populate these
+
+        *@
+
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="Submit" class="btn btn-primary" onclick="showProject()" id="indexChooseGroup" />
+</div>
+<br />
+<br />
+
+<table id="table">
+<div class="row" id="projects" style="display:none">
+    <div class="col-md-6">
+        <textarea class="objContainer"></textarea>
+        @*<input type="text" class="objContainer" id="1" height="200px"/>*@
+        <br/>
+        <input type="button" value="Lock" disabled="disabled"/>
+        <input type="button" value="Unlock"/>
+        <br/>
+        <br/>
+    </div>
+    @*<div class="col-md-6">
+        <input type="text" class="objContainer" id="2" />
+        <br />
+        <input type="button" value="Lock" />
+        <input type="button" value="Unlock" />
+    </div>*@
+</div>
+</table>
 
 <script src="~/lib/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/MultiUser.js"></script>
+<link rel="stylesheet" href="~/css/site.css" />
+
+
+
+
+
+
+<script>
+            //function addProject() {
+            //    <div class="col-md-6">
+            //        <input type="text" class="objContainer" id="1" />
+            //    </div>
+            //}
+
+
+</script>
+
+
+
 
 @*<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
         <ol class="carousel-indicators">
